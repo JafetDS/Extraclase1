@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="label" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: skyblue;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+      <StackPane prefHeight="59.0" prefWidth="600.0" style="-fx-background-color: black;">
+         <children>
+            <Text fill="#30e10c" strokeType="OUTSIDE" strokeWidth="0.0" text="Lector .CSV">
+               <font>
+                  <Font size="42.0" />
+               </font>
+            </Text>
+         </children>
+      </StackPane>
+      <TextArea fx:id="Cuadro" layoutY="59.0" prefHeight="247.0" prefWidth="600.0" />
+      <Button fx:id="buscar" layoutX="55.0" layoutY="324.0" mnemonicParsing="false" onAction="prueba" prefHeight="56.0" prefWidth="95.0" text="Buscar" />
+      <Button fx:id="Mostrar" layoutX="223.0" layoutY="322.0" mnemonicParsing="false" prefHeight="59.0" prefWidth="95.0" text="Mostrar" />
+   </children>
+</AnchorPane>
